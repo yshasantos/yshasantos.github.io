@@ -9,3 +9,12 @@ const navbarContainer =  document.getElementById('navbar');
 if (navbarContainer) {
     navbarContainer.innerHTML = navbar;
 }
+
+const footer = `
+    <p class="text-gray-700">Website made by Patricia Anne Santos 2024</p>
+`
+
+const footerContainer = document.getElementById('footer');
+if (footerContainer) {
+    footerContainer.innerHTML = footer;
+}
