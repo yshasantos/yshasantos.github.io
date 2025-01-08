@@ -1,5 +1,5 @@
 section {
-    scroll-margin-top: 4rem; 
+    scroll-margin-top: 4rem;
 }
 
 ul ul {
@@ -8,7 +8,7 @@ ul ul {
 
 ul > li {
     margin-left: 10vb;
-    }
+}
 
 .navbar-text {
     color: #374151;
@@ -29,7 +29,7 @@ ul > li {
 }
 
 .hover-highlight:hover > .card-text {
-    color: #dbdbf3
+    color: #dbdbf3;
 }
 
 .text-highlight {
@@ -39,7 +39,6 @@ ul > li {
 .text-highlight:hover {
     color: #6f96f9;
 }
-
 
 .fav-color {
     background-color: #6f96f9;
