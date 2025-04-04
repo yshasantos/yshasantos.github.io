@@ -1,56 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Mono&display=swap');
+
 section {
     scroll-margin-top: 4rem;
 }
 
-ul ul {
-    list-style-type: disc;
+.navbar {
+    box-shadow: 0 0 5px 2px rgb(0 0 0 / 0.15);
 }
 
-ul > li {
-    margin-left: 10vb;
+.navbutton {
+    background-color: #7959CC;
+    color: #F0ECFA;
+
 }
 
-.navbar-text {
+.navbutton:hover {
+    background-color: #A98EF0;
+    color: #F0ECFA;
+}
+
+
+.hero-section {
+    height: 85vh;
+}
+
+.about-section {
+    box-shadow: 0 0 5px 2px rgb(0 0 0 / 0.15);
+}
+
+/* Palette colours */
+.palette-text {
+    font-family: "PT Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
     color: #374151;
 }
 
-.navbar-text:hover {
-    color: #6f96f9;
+.palette-blue1 {
+    color: #5879CA;
 }
 
-.hover-highlight {
-    background-color: #ffffff;
-    color: #374151;
+.palette-blue2 {
+    color: #8DA9EF;
 }
 
-.hover-highlight:hover {
-    background-color: #6f96f9;
-    color: #f3f3fd;
+.palette-blue3 {
+    color: #B7C6ED;
 }
 
-.hover-highlight:hover > .card-text {
-    color: #dbdbf3;
+.palette-blue4 {
+    color: #CFDDFF;
 }
 
-.text-highlight {
-    color: #111827;
+.palette-blue5 {
+    color: #ECF0F9;
 }
 
-.text-highlight:hover {
-    color: #6f96f9;
+.palette-purple1 {
+    color: #7959CC;
 }
 
-.fav-color {
-    background-color: #6f96f9;
+.palette-purple2 {
+    color: #A98EF0;
 }
 
-footer {
-    position: relative; /* For standard placement */
-    width: 100%;
-    bottom: 0;
+.palette-purple3 {
+    color: #C7B8EE;
 }
 
-/* Optional: Footer styling for small text and spacing */
-footer p {
-    font-size: 0.875rem; /* Tailwind's 'text-sm' equivalent */
+.palette-purple4 {
+    color: #DCCFFF;
+}
+
+.palette-purple5 {
+    color: #F0ECFA;
+}
+
+.palette-yellow1 {
+    color: #FFCA5E;
+}
+
+.palette-yellow2 {
+    color: #FFD98A;
+}
+
+.palette-yellow3 {
+    color: #FFEABE;
+}
+
+.palette-yellow4 {
+    color: #FFEDC9;
+}
+
+.palette-yellow5 {
+    color: #FFFAF0;
+}
+
+.palette-green1 {
+    color: #47C1B8;
+}
+
+.palette-green2 {
+    color: #80ECE4;
+}
+
+.palette-green3 {
+    color: #AEEAE6;
+}
+
+.palette-green4 {
+    color: #C9FFFB;
+}
+
+.palette-green5 {
+    color: #E9F8F7;
+}
+
+.palette-bg-blue1 {
+    background-color: #5879CA;
+}
+
+.palette-bg-blue2 {
+    background-color: #8DA9EF;
+}
+
+.palette-bg-blue3 {
+    background-color: #B7C6ED;
+}
+
+.palette-bg-blue4 {
+    background-color: #CFDDFF;
+}
+
+.palette-bg-blue5 {
+    background-color: #ECF0F9;
+}
+
+.palette-bg-purple1 {
+    background-color: #7959CC;
+}
+
+.palette-bg-purple2 {
+    background-color: #A98EF0;
+}
+
+.palette-bg-purple3 {
+    background-color: #C7B8EE;
+}
+
+.palette-bg-purple4 {
+    background-color: #DCCFFF;
+}
+
+.palette-bg-purple5 {
+    background-color: #F0ECFA;
+}
+
+.palette-bg-yellow1 {
+    background-color: #FFCA5E;
+}
+
+.palette-bg-yellow2 {
+    background-color: #FFD98A;
+}
+
+.palette-bg-yellow3 {
+    background-color: #FFEABE;
+}
+
+.palette-bg-yellow4 {
+    background-color: #FFEDC9;
+}
+
+.palette-bg-yellow5 {
+    background-color: #FFFAF0;
+}
+
+.palette-bg-green1 {
+    background-color: #47C1B8;
+}
+
+.palette-bg-green2 {
+    background-color: #80ECE4;
+}
+
+.palette-bg-green3 {
+    background-color: #AEEAE6;
+}
+
+.palette-bg-green4 {
+    background-color: #C9FFFB;
+}
+
+.palette-bg-green5 {
+    background-color: #E9F8F7;
 }
