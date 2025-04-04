@@ -1,0 +1,56 @@
+section {
+    scroll-margin-top: 4rem;
+}
+
+ul ul {
+    list-style-type: disc;
+}
+
+ul > li {
+    margin-left: 10vb;
+}
+
+.navbar-text {
+    color: #374151;
+}
+
+.navbar-text:hover {
+    color: #6f96f9;
+}
+
+.hover-highlight {
+    background-color: #ffffff;
+    color: #374151;
+}
+
+.hover-highlight:hover {
+    background-color: #6f96f9;
+    color: #f3f3fd;
+}
+
+.hover-highlight:hover > .card-text {
+    color: #dbdbf3;
+}
+
+.text-highlight {
+    color: #111827;
+}
+
+.text-highlight:hover {
+    color: #6f96f9;
+}
+
+.fav-color {
+    background-color: #6f96f9;
+}
+
+footer {
+    position: relative; /* For standard placement */
+    width: 100%;
+    bottom: 0;
+}
+
+/* Optional: Footer styling for small text and spacing */
+footer p {
+    font-size: 0.875rem; /* Tailwind's 'text-sm' equivalent */
+}

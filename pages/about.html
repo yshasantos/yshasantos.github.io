@@ -1,0 +1,73 @@
+<!--This website was made by Patricia Anne Santos using VScode-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Patricia Anne Santos | About</title>
+    <link
+        rel="stylesheet"
+        href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+    />
+    <link rel="stylesheet" href="./../styles.css" />
+    <script src="./../consts.js" defer></script>
+</head>
+
+<body class = "palette-text palette-bg-blue5 leading-normal tracking-normal">
+    <!-- Navigation Bar --> <!--TODO FIX BUTTON WIDTH-->
+    <nav class="
+    navbar flex palette-bg-blue3 fixed w-screen z-10 top-0 mx-auto px-5 py-3 
+    justify-end items-center"
+    >
+        
+        <div class="
+        navbutton items-center rounded-lg shadow-md overflow-hidden 
+        cursor-pointer transition duration-300 ease-in-out px-4 py-2 mx-3 my-2"
+        onclick="location.href='./../index.html'"
+        >
+            <a>Home</a>
+        </div>
+        <div class="
+        navbutton-curr items-center rounded-lg overflow-hidden 
+        px-4 py-2 mx-3 my-2"
+        onclick="location.href='./about.html'"
+        >
+            <a class="pointer-events-none">About Me</a>
+        </div>
+        <div class="
+        navbutton items-center rounded-lg shadow-md overflow-hidden 
+        cursor-pointer transition duration-300 ease-in-out px-4 py-2 mx-3 my-2"
+        onclick="location.href='./projects.html'"
+        >
+            <a>Projects</a>
+        </div>
+        <div class="
+        navbutton items-center rounded-lg shadow-md overflow-hidden 
+        cursor-pointer transition duration-300 ease-in-out px-4 py-2 mx-3 my-2"
+        onclick="location.href='./contact.html'"
+        >
+            <a>Contact</a>
+        </div>
+    </nav>
+
+    <!--Header-->
+    <div class="header-section flex flex-col items-start px-10 mx-5">
+        <h1 class="text-3xl tracking-wider mb-2">> About me</h1>
+        <div class="palette-bg-blue2 h-0.5 w-full mb-10"></div>
+    </div>
+
+    <div class="px-10 mx-5">
+        <p class="text-base">
+            I'm a fourth year undergraduate at the University of Toronto set to graduate<br>
+            with a major in Cognitive Science (Computational Cognition Stream), and minors<br>
+            in Computer Science and Psychology.<br>
+            ---<br>
+            In my spare time, I enjoy creating art, playing video games, reading, and jotting<br>
+            down ideas for future projects. I also love to learn new things and am always<br>
+            looking for opportunities to expand my knowledge and skills.<br>
+        </p>
+
+    </div>
+
+</body>
+</html>
