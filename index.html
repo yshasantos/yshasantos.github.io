@@ -1,75 +1,83 @@
 <!--This website was made by Patricia Anne Santos using VScode-->
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Document</title>
-        <link
-            rel="stylesheet"
-            href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
-        />
-        <link rel="stylesheet" href="styles.css" />
-        <script src="consts.js" defer></script>
-    </head>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Patricia Anne Santos | Home</title>
+    <link
+        rel="stylesheet"
+        href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+    />
+    <!--TODO: add favicon-->
+    <!--<link rel="icon" type="image/x-icon" href="/images/favicon.ico"> -->
+    <link rel="stylesheet" href="styles.css" />
+    <script src="consts.js" defer></script>
+</head>
 
-    <body class = "palette-text palette-bg-blue5 leading-normal tracking-normal">
-        <!-- Navigation Bar --> <!--TODO FIX BUTTON WIDTH-->
-        <nav class="
-        navbar flex palette-bg-blue3 fixed w-screen z-10 top-0 mx-auto px-5 py-3 
-        justify-end items-center"
+<body class = "palette-text palette-bg-blue5 leading-normal tracking-normal">
+    <!-- Navigation Bar --> <!--TODO FIX BUTTON WIDTH-->
+    <nav class="
+    navbar flex palette-bg-blue3 fixed w-screen z-30 top-0 mx-auto px-5 py-3 
+    justify-end items-center"
+    >
+        
+        <div class="
+        navbutton-curr items-center rounded-lg overflow-hidden 
+        px-4 py-2 mx-3 my-2"
+        onclick="location.href='./index.html'"
         >
-            
-            <div class="
-            navbutton items-center rounded-lg shadow-md overflow-hidden 
-            cursor-pointer transition duration-300 ease-in-out px-4 py-2 mx-3 my-2"
-            >
-                <a href="#home">Home</a> <!-- THIS ONE IS PRESSED CHANGE IT TODO-->
-            </div>
-            <div class="
-            navbutton items-center rounded-lg shadow-md overflow-hidden 
-            cursor-pointer transition duration-300 ease-in-out px-4 py-2 mx-3 my-2"
-            >
-                <a href="#home">About Me</a>
-            </div>
-            <div class="
-            navbutton items-center rounded-lg shadow-md overflow-hidden 
-            cursor-pointer transition duration-300 ease-in-out px-4 py-2 mx-3 my-2"
-            >
-                <a href="#home">Projects</a>
-            </div>
-            <div class="
-            navbutton items-center rounded-lg shadow-md overflow-hidden 
-            cursor-pointer transition duration-300 ease-in-out px-4 py-2 mx-3 my-2"
-            >
-                <a href="#home">Contact</a>
-            </div>
-        </nav>
-        
-        <!-- Hero Section -->
-        <div class="hero-section flex flex-col justify-center items-start palette-bg-blue5 mx-5 px-10" id="home">
-            <h1 class="text-3xl pt-4 pb-2 font-light">> Hi! I'm </h1> 
-            <h1 class="text-5xl font-light">Patricia Anne Santos!</h1>
+            <a class="pointer-events-none">Home</a> <!-- THIS ONE IS PRESSED CHANGE IT TODO-->
         </div>
-        
-        <div class="about-section text-right palette-bg-blue3 text-base leading-7" id="about">
-            <p class="py-24 px-10 mx-5">
-                I'm a fourth-year student at the University of Toronto studying<br>
-                Cognitive Science, Computer Science, and Psychology. I consider<br>
-                myself a creative and analytical thinker who enjoys making things<br>
-                that will help others!<br>
-                ---<br>
-                My interdisciplinary field of study allows me to understand the<br>
-                intersection of human behavior and technology, which I hope to<br>
-                showcase in my work. I aim to apply these skills to UX design and<br>
-                front-end development through making optimized and easy-to-learn user<br>
-                interfaces.
-            </p>
+        <div class="
+        navbutton items-center rounded-lg shadow-md overflow-hidden 
+        cursor-pointer transition duration-300 ease-in-out px-4 py-2 mx-3 my-2"
+        onclick="location.href='./pages/about.html'"
+        >
+            <a>About Me</a>
         </div>
-        
-        <div class="palette-purple2 py-8 px-10 mx-5">
-            Made and designed by Patricia Anne Santos 2025
+        <div class="
+        navbutton items-center rounded-lg shadow-md overflow-hidden 
+        cursor-pointer transition duration-300 ease-in-out px-4 py-2 mx-3 my-2"
+        onclick="location.href='./pages/projects.html'"
+        >
+            <a>Projects</a>
         </div>
+        <div class="
+        navbutton items-center rounded-lg shadow-md overflow-hidden 
+        cursor-pointer transition duration-300 ease-in-out px-4 py-2 mx-3 my-2"
+        onclick="location.href='./pages/contact.html'"
+        >
+            <a>Contact</a>
+        </div>
+    </nav>
+    
+    <!-- Hero Section -->
+    <div class="hero-section flex flex-col justify-center items-start palette-bg-blue5 mx-5 px-10" id="home">
+        <h1 class="text-3xl pt-4 pb-2 z-20">> Hi! I'm </h1> 
+        <h1 class="text-5xl z-20">Patricia Anne Santos!</h1>
+        <img src="./images/vector-circle.png" class="circles"/>
+        <img src="./images/vector-star.png" class="stars"/>
+    </div>
+    
+    <div class="about-section relative text-right palette-bg-blue3 text-base leading-7 z-30" id="about">
+        <p class="py-24 px-10 mx-5">
+            I'm a fourth-year student at the University of Toronto studying<br>
+            Cognitive Science, Computer Science, and Psychology. I consider<br>
+            myself a creative and analytical thinker who enjoys making things<br>
+            that will help others!<br>
+            ---<br>
+            My interdisciplinary field of study allows me to understand the<br>
+            intersection of human behavior and technology, which I hope to<br>
+            showcase in my work. I aim to apply these skills to UX design and<br>
+            front-end development through making optimized and easy-to-learn user<br>
+            interfaces.
+        </p>
+    </div>
+    
+    <div class="palette-purple2 py-8 px-10 mx-5">
+        Made and designed by Patricia Anne Santos 2025
+    </div>
 
-    </body>
+</body>
 </html>

@@ -1,0 +1,223 @@
+<!--This website was made by Patricia Anne Santos using VScode-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Patricia Anne Santos</title>
+        <link
+            rel="stylesheet"
+            href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+        />
+        <link rel="stylesheet" href="styles.css" />
+        <script src="components.js" defer></script>
+    </head>
+
+    <body
+        class="bg-gray-100 text-gray-800 font-sans leading-normal tracking-normal"
+    >
+        <!-- Navbar -->
+        <nav class="bg-white shadow fixed w-screen z-10 top-0">
+            <div
+                class="container mx-auto px-5 py-3 flex justify-between items-center"
+            >
+                <a
+                    href="#introduction"
+                    class="text-xl font-semibold text-gray-900"
+                    >Patricia's Portfolio</a
+                >
+                <div>
+                    <a href="#introduction" class="navbar-text mx-4"
+                        >About Me</a
+                    >
+                    <a href="#projects" class="navbar-text mx-4">Experience</a>
+                    <a href="#contact" class="navbar-text mx-4">Contact</a>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container mx-auto px-5 pt-24">
+            <!-- Intro Section -->
+            <section id="introduction" class="text-center mb-16">
+                <h1 class="text-4xl font-bold text-gray-900 mb-4">
+                    Hey! I'm <span class="text-highlight">Patricia</span>
+                </h1>
+                <p class="text-lg text-gray-700 max-w-4xl mx-auto">
+                    I'm a fourth year student at the University of Toronto
+                    studying Cognitive Science, Computer Science, and
+                    Psychology. I'd consider myself a creative and analytical
+                    thinker who enjoys making things that will help others!
+                </p>
+                <p class="text-lg text-gray-700 max-w-4xl mx-auto">
+                    My interdisciplinary field of study allows me to understand
+                    the intersection of human behavior and technology, which I
+                    hope to showcase in my work. I aim to apply these skills to
+                    UX design and front-end development through making optimized
+                    and easy to learn user interfaces.
+                </p>
+            </section>
+
+            <!-- Color Bar Separator -->
+            <div class="fav-color h-1 w-full mb-10"></div>
+
+            <!-- Projects Section -->
+            <section id="projects">
+                <h2
+                    class="text-3xl font-semibold text-gray-900 mb-8 text-center"
+                >
+                    Experience and Works
+                </h2>
+
+                <!-- Project Card 1 -->
+                <div
+                    class="bg-white shadow-md rounded-lg overflow-hidden mb-10 cursor-pointer"
+                    onclick="location.href='blueprint-project.html'"
+                >
+                    <div
+                        class="p-6 hover-highlight transition duration-300 ease-in-out"
+                    >
+                        <h3 class="text-2xl font-semibold mb-2">
+                            Blueprint Project Designer
+                        </h3>
+                        <p
+                            class="card-text text-gray-700 transition duration-300 ease-in-out"
+                        >
+                            Working with a team of developers, I am tasked with
+                            making designs which follow our client's design
+                            requirements. Currently, my team is collaborating
+                            with The Period Purse to improve their mobile period
+                            tracking app.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Project Card 2 -->
+                <div
+                    class="bg-white shadow-md rounded-lg overflow-hidden mb-10 cursor-pointer"
+                    onclick="location.href='CASA.html'"
+                >
+                    <div
+                        class="p-6 hover-highlight transition duration-300 ease-in-out"
+                    >
+                        <h3 class="text-2xl font-semibold mb-2">
+                            CASA President
+                        </h3>
+                        <p
+                            class="card-text text-gray-700 transition duration-300 ease-in-out"
+                        >
+                            Serving as the 2024-2025 President of the Cognitive
+                            Science and Artificial Intelligence Students
+                            Association (CASA), it is my job to manage the
+                            executive team and ensure that We are effectively
+                            providing resources and events for our members.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Project Card 3 -->
+                <div
+                    class="bg-white shadow-md rounded-lg overflow-hidden mb-10 cursor-pointer"
+                    onclick="location.href='research-assistant.html'"
+                >
+                    <div
+                        class="p-6 hover-highlight transition duration-300 ease-in-out"
+                    >
+                        <h3 class="text-2xl font-semibold mb-2">
+                            Linguistics Lab Research Assistant
+                        </h3>
+                        <p
+                            class="card-text text-gray-700 transition duration-300 ease-in-out"
+                        >
+                            As a lab assistant, I was responsible for organizing
+                            data for the lab's research on linguistic processing
+                            of bilingual children. I also helped design the
+                            experiment's interface, such that it would be easily
+                            comprehensible for children.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Project Card 4 -->
+                <div
+                    class="bg-white shadow-md rounded-lg overflow-hidden mb-10 cursor-pointer"
+                    onclick="location.href='artwork.html'"
+                >
+                    <div
+                        class="p-6 hover-highlight transition duration-300 ease-in-out"
+                    >
+                        <h3 class="text-2xl font-semibold mb-2">Hobby Art</h3>
+                        <p
+                            class="card-text text-gray-700 transition duration-300 ease-in-out"
+                        >
+                            In my free time, I enjoy creating digital art, and
+                            often take commissions from friends and family. I
+                            study the principles of design and color theory to
+                            create pieces that are visually appealing, which I
+                            hope to apply to my future work in UX design.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Project Card 5 -->
+                <div
+                    class="bg-white shadow-md rounded-lg overflow-hidden mb-10 cursor-pointer"
+                    onclick="location.href='csc318.html'"
+                >
+                    <div
+                        class="p-6 hover-highlight transition duration-300 ease-in-out"
+                    >
+                        <h3 class="text-2xl font-semibold mb-2">
+                            CSC318 @ UofT
+                        </h3>
+                        <p
+                            class="card-text text-gray-700 transition duration-300 ease-in-out"
+                        >
+                            In The Design of Interactive Computational Media, my
+                            group set out to create a mobile app prototype
+                            resembling a social media platform. My role included
+                            creating user personas, wireframes, and conducting
+                            usability testing.
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Color Bar Separator -->
+            <div class="fav-color h-1 w-full mb-10"></div>
+
+            <!-- Contact Section -->
+            <section id="contact" class="text-center">
+                <h2 class="text-3xl font-semibold text-gray-900 mb-8">
+                    Contact Me
+                </h2>
+                <!-- <p class="text-lg text-gray-700 max-w-4xl mx-auto">
+                Email and Linkdin
+                [Provide it here]
+            </p> -->
+                <div class="flex justify-center mt-8">
+                    <div class="mx-8 px-3">
+                        <a
+                            href="mailto:patricia.anne.santos@outlook.com"
+                            class="text-lg text-gray-700 underline text-highlight"
+                            >Email</a
+                        >
+                    </div>
+                    <div class="mx-8 px-3">
+                        <a
+                            href="https://www.linkedin.com/in/ysha-santos/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="text-lg text-gray-700 underline text-highlight"
+                            >LinkedIn</a
+                        >
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <footer
+            id="footer"
+            class="text-gray-600 py-4 mt-10 text-center center"
+        ></footer>
+    </body>
+</html>

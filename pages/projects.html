@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Patricia Anne Santos | Projects</title>
+    <link
+        rel="stylesheet"
+        href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+    />
+    <link rel="stylesheet" href="./../styles.css" />
+    <script src="./../consts.js" defer></script>
+</head>
+
+<body class = "palette-text palette-bg-blue5 leading-normal tracking-normal">
+    <!-- Navigation Bar --> <!--TODO FIX BUTTON WIDTH-->
+    <nav class="
+    navbar flex palette-bg-blue3 fixed w-screen z-10 top-0 mx-auto px-5 py-3 
+    justify-end items-center"
+    >
+        
+        <div class="
+        navbutton items-center rounded-lg shadow-md overflow-hidden 
+        cursor-pointer transition duration-300 ease-in-out px-4 py-2 mx-3 my-2"
+        onclick="location.href='./../index.html'"
+        >
+            <a>Home</a>
+        </div>
+        <div class="
+        navbutton items-center rounded-lg shadow-md overflow-hidden 
+        cursor-pointer transition duration-300 ease-in-out px-4 py-2 mx-3 my-2"
+        onclick="location.href='./about.html'"
+        >
+            <a>About Me</a>
+        </div>
+        <div class="
+        navbutton-curr items-center rounded-lg overflow-hidden 
+        px-4 py-2 mx-3 my-2"
+        onclick="location.href='./projects.html'"
+        >
+            <a class="pointer-events-none">Projects</a>
+        </div>
+        <div class="
+        navbutton items-center rounded-lg shadow-md overflow-hidden 
+        cursor-pointer transition duration-300 ease-in-out px-4 py-2 mx-3 my-2"
+        onclick="location.href='./contact.html'"
+        >
+            <a>Contact</a>
+        </div>
+    </nav>
+
+    <!--Header-->
+    <div class="header-section flex flex-col items-start px-10 mx-5">
+        <h1 class="text-3xl tracking-wider mb-2">> Projects</h1>
+        <div class="palette-bg-blue2 h-0.5 w-full mb-10"></div>
+    </div>
+
+    <div class="projects px-10 mx-5">
+        <!-- Project Card 1 -->
+        <div class="
+        project-card shadow-md rounded-lg overflow-hidden mb-10 cursor-pointer
+        p-6 hover-highlight transition duration-300 ease-in-out"
+        onclick="location.href='./projects/gallery.html'"
+        >
+            <h1 class="text-2xl font-semibold mb-2">
+                Wander UX Designathon '25
+            </h1>
+            <p class="card-text text-gray-700 transition duration-300 ease-in-out">
+                Working in a team of four, we were tasked to design a solution within
+                two days that followed the theme of 'enhancing the connection
+                between global artists and audiences'. We set out to replicate
+                the experience of being in a gallery, but in a virtual space.
+            </p>
+        </div>
+
+        <!-- Project Card 2 -->
+        <div class="
+        project-card shadow-md rounded-lg overflow-hidden mb-10 cursor-pointer
+        p-6 hover-highlight transition duration-300 ease-in-out"
+        onclick="location.href='./projects/blueprint.html'"
+        >
+            <h1 class="text-2xl font-semibold mb-2">
+                Blueprint Project Designer
+            </h1>
+            <p class="card-text text-gray-700 transition duration-300 ease-in-out">
+                Working with a team of developers, I am tasked with
+                making designs to satisfy our client's design
+                requirements. Currently, my team is collaborating
+                with The Period Purse to improve their mobile period
+                tracking app by adding an ovulation functionality and
+                creating information pages.
+            </p>
+        </div>
+
+        <!-- Project Card 3 -->
+        <div class="
+        project-card shadow-md rounded-lg overflow-hidden mb-10 cursor-pointer
+        p-6 hover-highlight transition duration-300 ease-in-out"
+        onclick="location.href='./projects/portfolio.html'"
+        >
+            <h1 class="text-2xl font-semibold mb-2">
+                My Portfolio
+            </h1>
+            <p class="card-text text-gray-700 transition duration-300 ease-in-out">
+                Having made this website from scratch, I am proud to say
+                that I have learned a lot about web design, my design process,
+                and web development. Along the way, I've improved my skills in
+                HTML, CSS, and JavaScript. I hope this website conveys my
+                personality and my work in a way that is easy to navigate
+                and understand!
+            </p>
+    
+        </div>
+
+        <!-- Project Card 4 -->
+        <div class="
+        project-card shadow-md rounded-lg overflow-hidden mb-10 cursor-pointer
+        p-6 hover-highlight transition duration-300 ease-in-out"
+        onclick="location.href='./projects/csc318.html'"
+        >
+            <h1 class="text-2xl font-semibold mb-2">
+                CSC318 @ UofT
+            </h1>
+            <p class="card-text text-gray-700 transition duration-300 ease-in-out">
+                In this class — The Design of Interactive Computational Media — my
+                group of six set out to create a mobile app prototype
+                resembling a social media platform. The goal was to deliver a solution
+                for the phenomenon of FOMO. My role included
+                creating user personas, wireframes, and conducting
+                usability testing.
+            </p>
+        </div>
+
+    </div>
+    
+</body>
+</html>
